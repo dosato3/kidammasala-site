@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kidammasala.com/sitemap.xml
+Sitemap: https://kidammasala-site.pages.dev/sitemap.xml
