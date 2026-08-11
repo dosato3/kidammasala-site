@@ -245,12 +245,6 @@ img { display: block; max-width: 100%; }
 .menu-card-desc { font-size: 0.92rem; opacity: 0.78; margin: 0 0 16px; }
 .menu-card-price { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--chili); margin: 14px 0 0; }
 
-/* Featured (signature) menu card — spans wider so its own content sets the row height */
-@media (min-width: 720px) {
-  .menu-card-featured { grid-column: span 2; flex-direction: row; }
-  .menu-card-featured .menu-card-media { width: 42%; aspect-ratio: auto; flex-shrink: 0; }
-  .menu-card-featured .menu-card-body { justify-content: center; }
-}
 .menu-card-body .menu-list-compact { flex: 0 0 auto; margin: 0 0 6px; }
 .menu-list-compact li { padding: 6px 0; font-size: 0.88rem; opacity: 0.82; border-bottom: none; }
 
